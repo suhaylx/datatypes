@@ -11,3 +11,8 @@ print(7%4) # 7 = 4 * 1 + 3 soo answer is 3 operatiom % finds remainder
 
 print(round(6.8)) # rouding number 
 print(abs(-13)) # absolute number it means no negative number 
+
+a = bin(5) # we can know binary representation of number with function bin() and we are assing to this variable a 
+print(a)
+z = int(a,2) #we are converting binary a to decimal 
+print (z) 
